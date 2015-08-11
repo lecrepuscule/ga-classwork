@@ -1,0 +1,63 @@
+a {
+  text-decoration: none;
+  color: red;
+}
+
+
+h1 {
+  font-size: 60px;
+  display: inline-block;
+  float: left;
+}
+
+.top {
+  margin: 70px 0px 0px 30px;
+  display: inline-block;
+  float: left;
+  color: #9C9999;
+}
+
+nav ul {
+  clear: both;
+}
+
+nav ul li {
+  font-size: 25px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 40px 15px 40px;
+  background-color: black;
+}
+
+nav ul li a {
+  color: white;
+}
+
+img {
+  width: 95%;
+}
+
+main {
+  display: inline-block;
+  width: 58%;
+  vertical-align: top;
+}
+
+aside {
+  display: inline-block;
+  width: 38%;
+  vertical-align: top;
+  margin-top: 30px;
+  color: gray;
+}
+
+time {
+  color: gray;
+  font-size: 35px;
+}
+
+article p::first-letter {
+  font-size: 100%;
+  color: gray;
+}
+
