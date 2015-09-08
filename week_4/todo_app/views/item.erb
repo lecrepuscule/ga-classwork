@@ -1,0 +1,5 @@
+<% if @item_details %>
+  <% @item_details.each do |item| %>
+    <p><%= "#{item['item']} #{item['notes']}" %></p>
+  <% end %>
+<% end %>

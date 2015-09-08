@@ -23,7 +23,7 @@ nav ul {
 
 nav ul li {
   font-size: 25px;
-  display: inline-block;
+  display: block;
   text-decoration: none;
   padding: 15px 40px 15px 40px;
   background-color: black;

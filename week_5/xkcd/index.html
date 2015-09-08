@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XKCD</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="/Users/Cloud/Documents/IT Course/GA/fundamentals/jquery-library/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="js/xkcd.js"></script>
+</head>
+<body>
+  <form id="input-form">
+    <select class="search-data" id="year">
+      <option class="year-option" value=2015>2015</option>
+      <option class="year-option" value=2014>2014</option>
+      <option class="year-option" value=2013>2013</option>
+      <option class="year-option" value=2012>2012</option>
+      <option class="year-option" value=2011>2011</option>
+      <option class="year-option" value=2010>2010</option>
+      <option class="year-option" value=2009>2009</option>
+      <option class="year-option" value=2008>2008</option>
+      <option class="year-option" value=2007>2007</option>
+      <option class="year-option" value=2006>2006</option>
+      <option class="year-option" value=2005>2005</option>
+    </select>
+    <select class="search-data" id="month">
+      <option class="month-option" value=1>1</option>
+      <option class="month-option" value=2>2</option>
+      <option class="month-option" value=3>3</option>
+      <option class="month-option" value=4>4</option>
+      <option class="month-option" value=5>5</option>
+      <option class="month-option" value=6>6</option>
+      <option class="month-option" value=7>7</option>
+      <option class="month-option" value=8>8</option>
+      <option class="month-option" value=9>9</option>
+      <option class="month-option" value=10>10</option>
+      <option class="month-option" value=11>11</option>
+      <option class="month-option" value=12>12</option>
+    </select>
+    <input class="search-data" id="day" placeholder="day"></input>
+    <input class="search-data" id="safe-title" placeholder="safe-title"></input>
+    <input class="search-data" id="title" placeholder="title"></input>
+    <input class="search-data" id="num" placeholder="num"></input>
+    <button id="search-button">search!</button>
+  </form>
+
+  <div id="results"></div>
+
+</body>
+</html>

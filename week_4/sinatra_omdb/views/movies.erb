@@ -1,0 +1,5 @@
+<% if @movies %>
+  <% @movies.each do |movie|%>
+    <h1><a href="/movies/<%= movie["title"] %>"><%= movie["title"] %></a></h1>
+  <% end %>
+<% end %>

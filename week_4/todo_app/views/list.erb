@@ -1,0 +1,23 @@
+
+
+<% if @new %>
+  <form action='/' method='post'>
+  <label for="item">Item</label>
+  <input name='new_item' id='item'>
+  <label for="notes">Notes</label>
+  <input name='new_notes' id='notes'>
+  <button>Add</button>
+  </form>
+<% else %>
+  <form action='/new' method='get'>
+  <button name='new_form'>New Item</button>
+  </form>
+<% end %>
+
+<% if @items %>
+  <% @items.each do |item| %>
+    <p><a href="/<%= item['id'] %>"><%= item['item'] %></a></p>
+  <% end %>
+<% else %>
+  <h1>Don't just sit there, find something productive to do!</h1>
+<% end %>

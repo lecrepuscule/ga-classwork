@@ -1,0 +1,7 @@
+<% if @details %>
+  <% @details.each do |value| %>
+    <% value.each do |key, value| %>
+      <h1><%= "#{key}: #{value}" %></h1>
+    <% end %>
+  <% end %>
+<% end %>

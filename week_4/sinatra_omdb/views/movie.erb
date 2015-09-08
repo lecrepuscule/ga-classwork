@@ -1,0 +1,10 @@
+<form action="/" method="get">
+  <label for="title">Movie title</label>
+  <input type="text" id="title" name="title">
+  <button>Get Movie!</button>
+</form>
+
+<% if @movie_hash %>
+  <h2><%= @movie_hash["Title"] %></h2>
+  <img src="<%= @movie_hash['Poster'] %>" alt=''>
+<% end %>
